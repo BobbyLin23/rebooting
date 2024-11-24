@@ -1,3 +1,4 @@
+import { Footer } from './_components/footer'
 import { Header } from './_components/header'
 
 export default function LandingLayout({
@@ -9,6 +10,7 @@ export default function LandingLayout({
     <div className="w-full min-h-screen">
       <Header />
       {children}
+      <Footer />
     </div>
   )
 }
