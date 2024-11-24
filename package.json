@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "run:web": "pnpm -C apps/web dev",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css,scss,yaml,yml}\"",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
